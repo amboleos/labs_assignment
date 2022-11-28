@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7278751409231238419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7278751409231238416}
+  m_Layer: 0
+  m_Name: PourPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7278751409231238416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7278751409231238419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.751, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7278751410700489837}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7278751410215755040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7278751410215755041}
+  m_Layer: 0
+  m_Name: BottleHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7278751410215755041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7278751410215755040}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0.4094, z: -0.691}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7278751410700489837}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1 &7278751410337994538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7278751410337994539}
+  m_Layer: 0
+  m_Name: BottlePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7278751410337994539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7278751410337994538}
+  m_LocalRotation: {x: -0.38268343, y: 0.92387956, z: -0, w: 0}
+  m_LocalPosition: {x: 0.2331, y: 1.147, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7278751410700489837}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: -45}
+--- !u!1 &7278751410700489836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7278751410700489837}
+  - component: {fileID: 7278751410700489834}
+  m_Layer: 0
+  m_Name: '[FluidManager]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7278751410700489837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7278751410700489836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7278751410215755041}
+  - {fileID: 7278751409231238416}
+  - {fileID: 7278751410337994539}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7278751410700489834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7278751410700489836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f66a0508164fcf83df4803b2a96377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottleOffset: 0.1
+  fluidData:
+  - {fileID: 11400000, guid: 2929dfcf82237cf49a0a232e937d6da1, type: 2}
+  - {fileID: 11400000, guid: 64e1c8b1e0fe9734a8fa49a8ed0b6f80, type: 2}
+  - {fileID: 11400000, guid: e34f08fe8848dda419bd0a41ad5c7777, type: 2}
+  - {fileID: 11400000, guid: 7b51ac00a6286654983f981b4e0a9fbf, type: 2}
+  - {fileID: 11400000, guid: 22a405c2aeebeda4385b31c43d128d99, type: 2}
+  - {fileID: 11400000, guid: 76d6d78c35f033241b78ac12af69977d, type: 2}
+  - {fileID: 11400000, guid: cbf201c692e6178488288189ee01d179, type: 2}
+  - {fileID: 11400000, guid: 793c83646f732f04dac1b5f8faa2d0bf, type: 2}
+  - {fileID: 11400000, guid: a9c75f0254187d242a06058ee74812b3, type: 2}
+  streamPrefab: {fileID: 2537697628497621850, guid: f445c42b19356b447bd57fe8408689b4,
+    type: 3}
+  bottlePrefab: {fileID: 3352844922209139595, guid: 40d8a7e4012fa6d42867cc2cdb03ccf5,
+    type: 3}
+  bottleHolder: {fileID: 7278751410215755041}
+  pourPoint: {fileID: 7278751409231238416}
+  bottlePoint: {fileID: 7278751410337994539}
+  shakerPrefab: {fileID: 6702638993403159567, guid: ac89bd6fdf3f6c04cbbcd4cc1846ac9b,
+    type: 3}
+  glassPrefabs:
+  - {fileID: 6702638993403159567, guid: ac89bd6fdf3f6c04cbbcd4cc1846ac9b, type: 3}
+  - {fileID: 8742526492177500494, guid: 1ca8255cb7af92145a5cc6587def3b39, type: 3}
+  - {fileID: 3628680061145556008, guid: abc5438421619f640ad47886492a8290, type: 3}
+  - {fileID: 5705014759485736934, guid: 213bb03a122a787449657661f8d4e1ab, type: 3}
+  - {fileID: 5612179504932529891, guid: 99848b74b9bf0904782a73efbf515ba7, type: 3}
+  - {fileID: 4914516529675190757, guid: 6c93c351e94e54d4a96137829e0abebd, type: 3}
+  - {fileID: 5867846500823522949, guid: d5bdf6ccfa4ba8d4090e008a908d6374, type: 3}
+  glassDisplays: []
+  bottles: []
